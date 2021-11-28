@@ -4,6 +4,7 @@ import getConfig from "../../service/getConfig.js";
 import getUserName from "../../service/service.getUserName.js";
 import icon from '../../assets/icon.svg'
 import { useNavigate } from "react-router-dom";
+import logo from '../../assets/logo.svg';
 
 const Header = () => {
   const config = getConfig();
@@ -21,9 +22,9 @@ const Header = () => {
   }, [])
 
   return (
-    <TopBar>
-      <SearchBar placeholder='Buscar Médico' />
+    <TopBar onClick={((e) => e.preventDefault())}>
       <UserDiv>
+        <Logo src={logo} alt='logo' />
         <Name onClick={(() => navigate('/my-page'))} >{username}</Name>
         <Icon onClick={(() => navigate('/my-page'))} src={icon} alt='Icon' />
       </UserDiv>
@@ -41,24 +42,18 @@ const TopBar = styled.header`
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-`;
-
-const SearchBar = styled.input`
-  width: 30%;
-  margin-right: calc(15%);
-  border: none;
-  height: 50px;
-  padding: 10px;
-  font-size: 26px;
-  border-radius: 10px;
+  justify-content: center;
 `;
 
 const UserDiv = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 20%;
+  width: 100%;
+`
+
+const Logo = styled.img`
+  height: 80%;
 `
 
 const Name = styled.p`
