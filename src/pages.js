@@ -4,8 +4,8 @@ import PatientSignUp from './content/patientSignup/index';
 import MedicSignUp from './content/medic-signup/index'
 import Signin from './content/signin/index';
 import Homepage from './content/homepage/index';
-import MedicPage from './content/medic-page';
 import CreateMedicPage from './content/create-medic-page';
+import MyPage from './content/my-page';
 
 const Pages = () => {
   return (
@@ -16,7 +16,7 @@ const Pages = () => {
       <Route exact path='/sign-in' element={<Signin />} />
       <Route exact path='/homepage' element={<Homepage />} />
       <Route exact path='/homepage-medico/:id' element={<CreateMedicPage />} />
-      <Route exact path='/medico/:id' element={<MedicPage />} />
+      <Route exact path='/my-page' element={<MyPage />} />
     </Routes>
   );
 };
