@@ -14,7 +14,7 @@ const FrontPage = () => {
     <Page>
       <Side />
       <ButtonsDiv>
-        <Title text='Lorem ipsum dolor sit amet, consecteur' />
+        <Title text='Bem Vinde ao ConecTrans' />
         <div>
           <MedicButton onClick={() => sendTo('/medic-signup')}>
             Sou Médico
