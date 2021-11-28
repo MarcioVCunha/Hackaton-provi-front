@@ -24,6 +24,8 @@ const Signin = () => {
 
     signinUser(userInfo)
       .then((res) => {
+        localStorage.setItem('token', res.data.token);
+        
         if (res.data.type === 1) {
           alert('Seja bem vinde');
           navigate('/homepage');
@@ -31,7 +33,7 @@ const Signin = () => {
         }
 
         alert('Seja bem vinde Doutor');
-        navigate(`/medico/${res.data.id}`)
+        navigate(`/homepage-medico/${res.data.id}`)
       })
       .catch((error) => {
         if (error.response.status === 404) {
