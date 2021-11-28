@@ -26,7 +26,7 @@ const MedicineModal = (props) => {
       })
       .catch((error) => {
         alert('Estamos com problema no servidor');
-        //navigate('/');
+        navigate('/');
         return;
       })
   };

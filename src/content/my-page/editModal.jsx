@@ -29,12 +29,12 @@ const EditModal = (props) => {
       .then(
         () => {
           alert('Dados salvos');
-          //navigate('/homepage');
+          navigate('/homepage');
           return;
         })
       .catch((error) => {
         alert('Tivemos um erro no servidor');
-        //navigate('/')
+        navigate('/')
         return;
       })
 

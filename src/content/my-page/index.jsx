@@ -22,9 +22,6 @@ const MyPage = () => {
     const promisse = getUserInfo({ token });
     promisse
       .then(async (res) => {
-
-        console.log(res.data);
-
         setName(res.data.userInfo[0].name);
         setBirthdate(res.data.userHistory[0].birth_date ? res.data.userHistory[0].birth_date : '');
         setBloodType(res.data.userHistory[0].blood_type ? res.data.userHistory[0].blood_type : '');
