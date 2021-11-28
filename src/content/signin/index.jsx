@@ -37,7 +37,7 @@ const Signin = () => {
       })
       .catch((error) => {
         if (error.response.status === 404) {
-          alert('Email ou seja incorretos');
+          alert('Email ou senha incorretos');
           return;
         }
         alert('Estamos com problema no servidor');
@@ -74,6 +74,9 @@ const InputDiv = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  @media(max-width: 600px){
+    width: 100%;
+  }
 `;
 
 const Button = styled.button`
@@ -84,6 +87,9 @@ const Button = styled.button`
   border: none;
   border-radius: 10px;
   font-size: 30px;
+  @media(max-width: 600px ){
+    width: 80%;
+  }
 `;
 
 export default Signin;

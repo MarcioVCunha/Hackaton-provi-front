@@ -1,14 +1,14 @@
 import styled from "styled-components";
-
+import logo from "../../assets/logo.png";
 const Title = (props) => {
   const { text } = props;
 
   return (
-    <Text>{text}</Text>
+    <Logo src={logo}/>
   )
 }
 
-const Text = styled.p`
+const Logo = styled.img`
   width: 80%;
   text-align: center;
   font-size: 40px;

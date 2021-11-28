@@ -6,8 +6,8 @@ const Side = () => {
     <PhotoDiv>
       <Photo src={doctors} alt='Doctors' />
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor orci et commodo consectetur. Quisque at posuere metus. Donec sed mi sit amet est blandit malesuada ac mattis enim. Phasellus vitae odio ornare, eleifend justo a, porta quam. Cras scelerisque dui nec lorem rutrum porttitor. Vivamus fringilla nulla nec ante venenatis luctus. Donec in tincidunt neque, a varius sem.
-      </p>
+      Vamos juntos proporcionar saúde, segurança e inclusão para pessoas trans que sofrem por falta de um serviço essencial.
+Aqui na ConectTrans você encontra os melhores profissionais da área da saúde para te ajudar nesse momento de transição.      </p>
     </PhotoDiv>
   );
 };
@@ -20,12 +20,20 @@ const PhotoDiv = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  @media(max-width: 600px){
+    display: none
+  }
+
+  @media(max-width: 1200px) and (min-width: 601px){
+    display: flex;
+  }
 
   p{
     width: 80%;
     font-size: 20px;
     text-align: justify;
   }
+
 `;
 
 const Photo = styled.img`

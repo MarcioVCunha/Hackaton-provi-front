@@ -15,6 +15,13 @@ const TextInput = styled.input`
   border: solid 1px black;
   padding: 0 10px;
   font-size: 20px;
+  @media(max-width: 600px){
+    width: 100%;
+    margin-bottom: 4%;
+  }
+  @media(max-width: 1200px) and (min-width: 601px){
+    width: 80%;
+  }
 `;
 
 export default Input;

@@ -74,6 +74,9 @@ const InputDiv = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  @media(max-width: 600px){
+    width: 100%;
+  }
 `;
 
 const Button = styled.button`
@@ -84,6 +87,13 @@ const Button = styled.button`
   color: white;
   font-size: 30px;
   padding: 10px;
+  @media(max-width: 600px){
+    width: 80%;
+  }
+  @media(max-width: 1200px) and (min-width: 601px){
+    width: 80%;
+    font-size: 24px;
+  }
 `;
 
 export default PatientSignUp;
