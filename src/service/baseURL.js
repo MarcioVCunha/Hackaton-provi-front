@@ -1,7 +1,3 @@
-import process from 'process';
-
-const BASE_URL = (process.env.NODE_ENV === 'production')
-  ? 'https://provi-hackaton.herokuapp.com'
-  : 'http://localhost:4000';
+const BASE_URL = 'https://provi-hackaton.herokuapp.com';
 
 export default BASE_URL;
