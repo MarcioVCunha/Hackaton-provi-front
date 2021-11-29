@@ -1,12 +1,15 @@
-##ConecTrans
+<h1>ConecTrans</h1>
 
 Hello fellow friend, here you have our project created to 'ProviHackPraTodos', it was a hackaton hosted by [Provi](https://provi.com.br/).
 
 We had 6 people in our team, sadly, two of them left the hackton, the last 4 members were:
 
 [Franciele Cristine - UI/UX](https://www.linkedin.com/in/franciele-cristine/)
+
 [Edinaldo Santos - UI/UX](https://www.linkedin.com/in/edinaldodossantos/)
+
 [Dariene Braz - Frontend Developer/PO](https://www.linkedin.com/in/dandariene-rp-braz/)
+
 [Marcio Cunha - Fullstack Web Developer](https://www.linkedin.com/in/marcio-cunha-1b05a12b/)
 
 #The Project
