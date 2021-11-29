@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+#ConecTrans
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello fellow friend, here you have our project created to 'ProviHackPraTodos', it was a hackaton hosted by [Provi](https://provi.com.br/).
 
-## Available Scripts
+We had 6 people in our team, sadly, two of them left the hackton, the last 4 members were:
 
-In the project directory, you can run:
+[Franciele Cristine - UI/UX](https://www.linkedin.com/in/franciele-cristine/)
+[Edinaldo Santos - UI/UX](https://www.linkedin.com/in/edinaldodossantos/)
+[Dariene Braz - Frontend Developer/PO](https://www.linkedin.com/in/dandariene-rp-braz/)
+[Marcio Cunha - Fullstack Web Developer](https://www.linkedin.com/in/marcio-cunha-1b05a12b/)
 
-### `npm start`
+#The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We had a week full of talks and speeches about diversity. By the end of the week, it was proposed to us to make an app with the following chalange:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+'Como a tecnologia pode melhorar a vida de grupos diversos?'
+'How technologie can improve the life of sundry groups?'
 
-### `npm test`
+As soon as we had the challege, we created a survey and started our research, soon we found that transsexual people had a big problem when the topic was health care, it was really hard to find a good doctor who would't judge them.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+So, our ideia was to create a app that would find doctors for this people, and they could give their feedback.
 
-### `npm run build`
+Unfortunally, we didn't finish this part because we were lacking two people in our team and there wasn't enough time to code everything.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#How it works
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+First of all, it has 2 parts, the front and the back, [here](https://github.com/MarcioVCunha/Hackaton-provi-back) is the backend.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Also, it has a fully functional deploy using heroku and vercel, you can acces it [here](https://hackaton-provi-front.vercel.app/).
 
-### `npm run eject`
+If you would like to run it in you machine, there are some steps, but they are pretty simple.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+First, clone this repo and the back, using
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    git clone "url from the repo"
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+then in both roots, run the
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    npm i
 
-## Learn More
+command, to install all the libraries i used.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+next, simply run npm start in the front (or, if you are using the new node npm run start:newNode).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+For the back though it's a little bit harder, you have to create your local database, it has a .env.example archive and a dump of the database i used, also, i used postgres, so it should be pretty easy to set it all up.
 
-### Code Splitting
+Then it's ready to run, just type
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    npm start
 
-### Analyzing the Bundle Size
+on your terminal in the root of the back, and there you go.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+With both, back and front runnig, the app should be working a okay.
