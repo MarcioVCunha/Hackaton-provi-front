@@ -12,7 +12,7 @@ We had 6 people in our team, sadly, two of them left the hackton, the last 4 mem
 
 [Marcio Cunha - Fullstack Web Developer](https://www.linkedin.com/in/marcio-cunha-1b05a12b/)
 
-#The Project
+<h1>The Project</h1>
 
 We had a week full of talks and speeches about diversity. By the end of the week, it was proposed to us to make an app with the following chalange:
 
@@ -25,7 +25,7 @@ So, our ideia was to create a app that would find doctors for this people, and t
 
 Unfortunally, we didn't finish this part because we were lacking two people in our team and there wasn't enough time to code everything.
 
-#How it works
+<h1>How it works</h1>
 
 First of all, it has 2 parts, the front and the back, [here](https://github.com/MarcioVCunha/Hackaton-provi-back) is the backend.
 
