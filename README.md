@@ -8,7 +8,7 @@ We had 6 people in our team, sadly, two of them left the hackton, the last 4 mem
 
 [Edinaldo Santos - UI/UX](https://www.linkedin.com/in/edinaldodossantos/)
 
-[Dariene Braz - Frontend Developer/PO](https://www.linkedin.com/in/dandariene-rp-braz/)
+[Dandariene Braz - Frontend Developer/PO](https://www.linkedin.com/in/dandariene-rp-braz/)
 
 [Marcio Cunha - Fullstack Web Developer](https://www.linkedin.com/in/marcio-cunha-1b05a12b/)
 
