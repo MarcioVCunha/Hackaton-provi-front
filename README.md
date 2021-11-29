@@ -42,7 +42,7 @@ command, to install all the libraries i used.
 
 next, simply run npm start in the front (or, if you are using the new node npm run start:newNode).
 
-For the back though it's a little bit harder, you have to create your local database, it has a .env.example archive and a dumb of the database i used, also, i used postgres, so it should be pretty easy to set it all up.
+For the back though it's a little bit harder, you have to create your local database, it has a .env.example archive and a dump of the database i used, also, i used postgres, so it should be pretty easy to set it all up.
 
 Then it's ready to run, just type
 
