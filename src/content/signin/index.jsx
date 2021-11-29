@@ -12,9 +12,6 @@ const Signin = () => {
   const navigate = useNavigate();
 
   const signin = async () => {
-    
-    console.log(process.env);
-
     if (email === '' || password === '') {
       alert('Preencha os dados corretamente');
       return;
@@ -28,7 +25,7 @@ const Signin = () => {
     signinUser(userInfo)
       .then((res) => {
         localStorage.setItem('token', res.data.token);
-
+        
         if (res.data.type === 1) {
           alert('Seja bem vinde');
           navigate('/homepage');

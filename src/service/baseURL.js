@@ -1,8 +1,6 @@
 import process from 'process';
 
-const { VERCEL_ENV } = process.env;
-
-const BASE_URL = (VERCEL_ENV === 'production')
+const BASE_URL = (process.env.NODE_ENV === 'production')
   ? 'https://provi-hackaton.herokuapp.com'
   : 'http://localhost:4000';
 
